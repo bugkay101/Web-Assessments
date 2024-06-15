@@ -70,7 +70,7 @@ Here's a post fom the victim profile, take note of the picture, the caption, and
 
 ![Update3](https://github.com/bugkay101/Web-Assessments/assets/149082141/86e3d7ce-122c-4206-993f-0715ec770933)
 
-We'll be changing the attacker's post ID fro the screenshot in step 2 to to the victim's post ID before clicking on the update button which will give us the privilege to edit the Victim's post.
+We'll be changing the attacker's post ID from the screenshot in step 2 to to the victim's post ID before clicking on the update button which will give us the privilege to edit the Victim's post.
 
 ![Update4](https://github.com/bugkay101/Web-Assessments/assets/149082141/d2997122-65d3-4702-8aa4-5369bcf198d5)
 
