@@ -40,6 +40,12 @@ Now we'll be intercepting HTTP traffic with ```burpsuite``` so we can tamper wit
 
 ![Burp1](https://github.com/bugkay101/Web-Assessments/assets/149082141/c96645c6-ec46-4da2-830f-076f73268e1b)
 
+Keep forwarding until we find the entry point
+
+We end up finding out that the website makes a ```POST``` request to the server and submits Certain parameters on line 16
+
+![Burp2](https://github.com/bugkay101/Web-Assessments/assets/149082141/952b591d-1ca5-48aa-9591-22c95f097c81)
+
 Notice the ```Creator``` parameter has a value of ```663d55ebc74486976e37449c``` which is bugkay231's (the attacker) profile ID.
 
 We'll change it to coolguy's profile ID and forward the subsequent requests, this will make the created post appear on coolguy's profile making it seem like coolguy made the post.
