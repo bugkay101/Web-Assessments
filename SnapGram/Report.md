@@ -60,7 +60,7 @@ We'll create a post with bugkay231's account:
 ![Update](https://github.com/bugkay101/Web-Assessments/assets/149082141/f3f7dd50-1869-41fb-8043-a3a91b62a2cd)
 
 #### Step 2 - Edit the post on the attacker's account:
-Well attempt editing bugkay231's post but this is not our real intentions. What we really want is to edit the victim's (coolguy) post.
+Well attempt editing bugkay231's post but this is not our real intention. What we really want is to edit the victim's (coolguy) post.
 
 ![Update2](https://github.com/bugkay101/Web-Assessments/assets/149082141/59e5b277-a13f-455c-b841-a305e256fd0c)
 
@@ -82,3 +82,5 @@ After we click on the Update Post button, we should see the changes on the victi
 
 Now our victim's caption has been changed
 
+## Mitigation:
+Implementing role based access control to prevent users from abusing their assigned privileges.
